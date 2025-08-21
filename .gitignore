@@ -1,0 +1,92 @@
+# OS
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# IDE/Editors
+.idea/
+.vscode/
+*.iml
+
+# Git merge/patch leftovers
+*.orig
+*.rej
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.python-version
+.Python
+
+# Virtual envs
+.venv/
+venv/
+env/
+ENV/
+venv.bak/
+
+# Packaging / build artifacts (Python)
+build/
+dist/
+.eggs/
+*.egg-info/
+*.egg
+pip-wheel-metadata/
+wheels/
+share/python-wheels/
+MANIFEST
+
+# Logs
+*.log
+logs/
+log/
+
+# Tests / Coverage
+.pytest_cache/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache/
+nosetests.xml
+coverage.xml
+htmlcov/
+coverage/
+
+# Django
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+media/
+staticfiles/
+static_root/
+collected_static/
+
+# Env files
+.env
+.env.*
+!.env.example
+backend/.env
+frontend/.env
+
+# Frontend / Node
+node_modules/
+**/node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+.eslintcache
+.stylelintcache
+
+# React (CRA)
+frontend/build/
+**/build/
+
+# Misc
+*.bak
+*.tmp
+~$*
