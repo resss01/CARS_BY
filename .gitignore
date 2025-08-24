@@ -8,6 +8,9 @@ Desktop.ini
 .idea/
 .vscode/
 *.iml
+*.swp
+*.swo
+*~
 
 # Git merge/patch leftovers
 *.orig
@@ -71,7 +74,7 @@ collected_static/
 backend/.env
 frontend/.env
 
-# Frontend / Node
+# Frontend / Node - только игнорируем зависимости и сборку
 node_modules/
 **/node_modules/
 npm-debug.log*
@@ -82,7 +85,7 @@ lerna-debug.log*
 .eslintcache
 .stylelintcache
 
-# React (CRA)
+# React (CRA) - только игнорируем папку сборки
 frontend/build/
 **/build/
 
@@ -90,3 +93,10 @@ frontend/build/
 *.bak
 *.tmp
 ~$*
+
+# Игнорируем только временные файлы, НЕ исходники
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+*.so
