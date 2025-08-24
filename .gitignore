@@ -90,5 +90,3 @@ frontend/build/
 *.bak
 *.tmp
 ~$*
-
-Telebot\bot.py
